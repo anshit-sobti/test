@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+ input[type=submit]{
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  background-color:  black;
+  border-radius: 25px;
+  color: black;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+<div class="container">
+<button type="button" class="btn btn-primary">Primary</button>
+</div>
+</style>
+<body>
+<h1 align= "center"> CALCULATOR APPLICATION </h1><br><br><br>
+ <form align="center">
+    FIRST NUMBER <br>
+ <input type="text" name="n1" placeholder = "..." value="" ><br><br>
+    SECOND NUMBER <br>
+      <input type="text" name="n2" placeholder = "..." value=""><br><br><br>
+      CHOOSE THE REQUIRED OPERATION <br><br>
+     <input id = "op" type="submit" name = "op" value="Addition">
+     <input id = "op" type="submit" name = "op" value="Subtraction">
+     <input id = "op" type="submit" name = "op" value="Multiplication">
+     <input id = "op" type="submit" name = "op" value="Division">
+<br><br><br>
+     Result = <%- result %><br>
+
+</form>
+</body>
+</html>
